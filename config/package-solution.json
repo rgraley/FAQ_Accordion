@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "BayCare FAQ Accordion Web Part",
+    "id": "f738e7a5-95c1-493c-ac7d-80421adbd51c",
+    "version": "1.0.0.2",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "iconPath": "images/bcappicons.png"
+  },
+  "paths": {
+    "zippedPackage": "solution/baycare-faq-accordion.sppkg"
+  }
+}

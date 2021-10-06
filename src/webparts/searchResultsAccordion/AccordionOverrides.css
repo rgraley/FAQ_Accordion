@@ -1,0 +1,48 @@
+.ui-accordion{
+    font-style:  normal;
+    font-variant: normal;
+    font-weight:  normal;
+    line-height: 1;
+    font-family: 'FontAwesome', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 1;
+    font-family: 'FontAwesome', 'Open Sans', sans-serif;
+    position: relative;
+    background-color:transparent;
+    width: 100%;
+  }
+  .ui-accordion-header {
+    width: 90%;
+    background: #cceff7;
+    margin-bottom: 2px;
+    font-size: 16px;
+    font-weight: normal;
+    display: block;
+    color: #002c77;
+    padding: 20px 0px 20px 15px;
+    border:none;
+  }
+  .ui-accordion-content {
+    width: 90%;
+    color: #444;
+    border:0px;
+  }
+  .ui-accordion-content-active {
+    width: 90%;
+    height: auto;
+    font-weight: normal;
+  }
+  .ui-accordion .ui-icon { display: none; }
+  .ui-accordion .ui-accordion-icons{padding-left: 15px;}
+  .ui-accordion .ui-accordion-content{
+    width: 90%;
+    padding: 15px 0px 15px 15px;
+    overflow: visible;
+
+  }

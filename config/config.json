@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "search-results-accordion-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/searchResultsAccordion/SearchResultsAccordionWebPart.js",
+          "manifest": "./src/webparts/searchResultsAccordion/SearchResultsAccordionWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SearchResultsAccordionWebPartStrings": "lib/webparts/searchResultsAccordion/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
